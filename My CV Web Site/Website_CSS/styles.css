@@ -1,0 +1,201 @@
+Body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  /* to align all text's and images to the center inside of the body*/
+  font-family: 'Merriweather', serif;
+  /*sets the font-family for all, the text inside the body.*/
+}
+
+h1 {
+  color: #66BFBF;
+  /*to change font color*/
+  /*font-size: 90px; size of the <h1></h1> font*/
+  /*font-size: 562.5%; to get font size in %, eg: (90px) 16px=100% thus 90/16= 5,625 and thus 562.5 */
+  font-size: 5.625rem;
+  /*line-height: 2;The line-height property specifies the height of a line.*/
+  /* rem after the number will ignore the parent (body) font-size and stand for root-em*/
+  margin: 50px auto 0 auto;
+  /*margin: top right bottom left, put margin in clockwise postions*/
+  /*margin: 0 auto 0 auto; auto will automaticaly center the position of the the element*/
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+  /*The font-weight property sets how thick or thin characters in text should be displayed*/
+}
+
+.bottom-heading {
+  font-weight: normal;
+}
+
+h3 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  /*border-style: none;
+  border-top-style: dotted;*/
+  border: dotted #839b97 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #ffc93c;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.top-container {
+  /* Parent class */
+  background-color: #e3fdfd;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: white;
+  margin: 100px 0;
+}
+
+.Bio {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-me {
+  width: 30%;
+  margin: 100px auto 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 300px auto;
+  /*text-align: left; alligns the text and image to the left*/
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.footer-link {
+  margin: 100px auto 100px auto;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
+
+/*.fullstack {
+  text-decoration: underline;
+}*/
+
+.top-cloud {
+  /* Child class */
+  position: absolute;
+  right: 450px;
+  top: 80px;
+}
+
+.middle-cloud {
+  /* Child class */
+  position: absolute;
+  left: 380px;
+  bottom: 300px;
+}
+
+.bottom-cloud {
+  /* Child class */
+  position: absolute;
+  right: 590px;
+  top: 500px;
+}
+
+.Profile-pic {
+  margin-top: 100px;
+  height: 300px;
+  width: 300px;
+}
+
+.gif-1 {
+  width: 25%;
+  float: left;
+  /*Wraps the text to the left side of the image*/
+  margin-right: 30px;
+  /*spaces the text 30px away from the image*/
+}
+
+.gif-2 {
+  width: 25%;
+  float: right;
+  margin-left: 1px;
+}
+
+/*.description-1{
+  clear: left;
+}
+clear rule is the opisit of float and thus will move the text accordingly.
+.description-2{
+  clear: right;
+}*/
+.btn {
+  /*Button*/
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 0;
+  line-height: 0;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  width: 130px;
+  font-size: 20px;
+  font-weight: 200;
+  padding: 30px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #30E3CD;
+  background-image: -webkit-linear-gradient(top, #30E3CD, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CD, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CD, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CD, #2BC4AD);
+  background-image: -webkit-gradient(to bottom, #30E3CD, #2BC4AD);
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  text-decoration: none;
+}
